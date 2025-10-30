@@ -1,119 +1,120 @@
 /* Button */
-.button{
-    padding: 20px 45px;
-    border-radius: 5px;
-    background-color: var(--color-secondary);
-    text-decoration: none;
-    color: black;
-    font-weight: 600;
-    transition: all 0.5s ease;
+.button {
+  padding: 20px 45px;
+  border-radius: 4px;
+  background-color: var(--color-secondary);
+  text-decoration: none;
+  color: var(--background-secondary);
+  font-weight: 700;
+  transition: all 0.5s ease;
 }
 
-.button:hover{
-    background-color: white;
+.button:hover {
+  background-color: white;
 }
 
-.button-two{
-    background-color: transparent;
-    color: white;
-    border: 0.5px solid var(--color-text);
+.button-two {
+  background-color: transparent;
+  color: white;
+  border: 0.5px solid var(--color-text);
 }
 
-.button-two:hover{
-    background-color: var(--color-secondary);
-    color: black;
+.button-two:hover {
+  background-color: var(--color-secondary);
+  color: var(--background-secondary);
 }
 
 /* End Button */
 
 /* Description */
-.description a{
-    text-decoration: none;
-    color: var(--color-secondary);
+.description a {
+  text-decoration: none;
+  color: var(--color-secondary);
 }
 /* End Description */
 
 /* header */
-.header{
-    width: 100%;
-    background-color: var(--background-primary);
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch; /*cho phép chiều cao con trực tiếp(inner-item) kéo dãn bằng header, các item sẽ cùng chiều cao nhau bằng header*/
-    padding: 0 50px; 
-    position: sticky;
+.header {
+  width: 100%;
+  background-color: var(--background-primary);
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch; /*cho phép chiều cao con trực tiếp(inner-item) kéo dãn bằng header, các item sẽ cùng chiều cao nhau bằng header*/
+  padding: 0 50px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 
-.header .inner-item{
-    display: flex;
-    align-items: center; /*Vì có cùng chiều cao và dòng này center nên các content bên trong các item sẽ căn ngang với nhau*/
-    padding: 20px 0;
+.header .inner-item {
+  display: flex;
+  align-items: center; /*Vì có cùng chiều cao và dòng này center nên các content bên trong các item sẽ căn ngang với nhau*/
+  padding: 20px 0;
 }
 
-.header .inner-item:first-child img{
-    width: auto;
-    height: 60px;
-    cursor: pointer;
+.header .inner-item:first-child img {
+  width: auto;
+  height: 60px;
+  cursor: pointer;
 }
 
-.header .inner-item:first-child .title{
-    font-size: 26px;
-    color: var(--color-primary);
-    cursor: pointer;
+.header .inner-item:first-child .title {
+  font-size: 26px;
+  color: var(--color-primary);
+  cursor: pointer;
 }
 
-.header .inner-item:first-child .title:hover{
-    color: var(--text-hover);
+.header .inner-item:first-child .title:hover {
+  color: var(--text-hover);
 }
 
-.header .inner-item:nth-child(2){
-    padding: 0;
+.header .inner-item:nth-child(2) {
+  padding: 0;
 }
 
-.header .inner-item:nth-child(2) .page{
-    color: var(--color-primary);
-    font-size: 18px;
-    font-weight: 600;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    padding: 0 20px;
-    cursor: pointer;
-    transition: all 0.3s ease;
+.header .inner-item:nth-child(2) .page {
+  color: var(--color-primary);
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
-.header .inner-item:nth-child(2) .page:hover{
-    background-color: white;
-    color: var(--text-hover);   
+.header .inner-item:nth-child(2) .page:hover {
+  background-color: white;
+  color: var(--text-hover);
 }
-
 
 .header .inner-item:last-child {
-    gap: 10px;
+  gap: 10px;
 }
 
-.header .inner-item:last-child .icon{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 23px;
-    padding: 15px 25px;
-    background-color: white;
-    border-radius: 8px;
-    cursor: pointer;
+.header .inner-item:last-child .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 23px;
+  padding: 15px 25px;
+  background-color: white;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
 /* End Header */
 
 /* Section One */
-.section-one{
-    width: 100%;
-    background-image: url(https://mobirise.com/extensions/softwarem4/software-app/assets/images/background1.jpg);
-    background-position: 50% 50%;
-    background-size: cover;
-    word-wrap: break-word;
-    position: relative;
+.section-one {
+  width: 100%;
+  background-image: url(https://mobirise.com/extensions/softwarem4/software-app/assets/images/background1.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  word-wrap: break-word;
+  position: relative;
 }
 
 .section-one::before {
@@ -123,48 +124,131 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.7); 
+  background: rgba(0, 0, 0, 0.7);
   z-index: 1;
 }
 
-.section-one .inner-wrap{
-    width: 100%;
-    padding: 10rem 0;
-    display: flex;
-    flex-direction: column;
-    /* justify-content: space-between; */
-    gap: 20px;
-    position: relative;
-    z-index: 2;
+.section-one .inner-wrap {
+  width: 100%;
+  padding: 10rem 0;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  gap: 20px;
+  position: relative;
+  z-index: 2;
 }
 
-.section-one p, .section-one h1, .section-one h3{
-    margin: 0;
+.section-one p,
+.section-one h1,
+.section-one h3 {
+  margin: 0;
 }
 
-.section-one .inner-wrap .title{
-    color: white;
-    font-size: 18px;
+.section-one .inner-wrap .title {
+  color: white;
+  font-size: 18px;
 }
 
-.section-one .inner-wrap .main-title{
-    color: white;
-    font-size: 50px;
+.section-one .inner-wrap .main-title {
+  color: white;
+  font-size: 50px;
 }
 
-.section-one .inner-wrap .description{
-    color: #BBBBBB;
-    font-size: 18px;
-    max-width: 50%;
+.section-one .inner-wrap .description {
+  color: #bbbbbb;
+  font-size: 18px;
+  max-width: 50%;
 }
 
-.section-one .inner-wrap .intro-btn{
-    display: flex;
-    gap: 20px;
+.section-one .inner-wrap .intro-btn {
+  display: flex;
+  gap: 20px;
 }
 
 /* End Section One */
 
+/* Section Two */
+.section-two {
+  width: 100%;
+  background-color: var(--background-primary);
+}
 
+.section-two .inner-wrap{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 60px;
+  padding: 100px 0;
+}
 
+.section-two .inner-wrap .inner-image{
+  grid-column: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.section-two .inner-wrap .inner-image img{
+    border-radius: 10px;
+    width: 90%;
+}
+
+.section-two .inner-wrap .inner-content{
+    padding: 20px 0;
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-two .inner-wrap .inner-content .key{
+    font-size: 18px;
+    color: var(--color-text);
+    margin: 0;
+}
+
+.section-two .inner-wrap .inner-content .title{
+    font-size: 60px;
+    color: var(--color-primary);
+    margin: 0;
+}
+
+.section-two .inner-wrap .inner-content .inner-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.section-two .inner-wrap .inner-content .inner-list .inner-box{
+    border-radius: 10px;
+    background-color: white;
+    width: 150px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.section-two .inner-wrap .inner-content .inner-list .inner-box i{
+    color: var(--icon-color);
+    font-size: 40px;
+}
+
+.section-two .inner-wrap .inner-content .inner-list .inner-box span{
+    font-weight: 600;
+}
+
+.section-two .inner-wrap .inner-content .description{
+    font-size: 18px;
+    color: var(--color-text);
+}
+
+.section-two .inner-wrap .inner-content .button{
+    align-self: flex-start;
+}
+
+/* End Section Two */
