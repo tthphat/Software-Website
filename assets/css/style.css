@@ -1,12 +1,12 @@
 /* Button */
 .button {
-  padding: 20px 45px;
-  border-radius: 4px;
-  background-color: var(--color-secondary);
-  text-decoration: none;
-  color: var(--background-secondary);
-  font-weight: 700;
-  transition: all 0.5s ease;
+    padding: 20px 45px;
+    border-radius: 4px;
+    background-color: var(--color-secondary);
+    text-decoration: none;
+    color: var(--background-secondary);
+    font-weight: 700;
+    transition: all 0.5s ease;
 }
 
 .button:hover {
@@ -14,9 +14,9 @@
 }
 
 .button-two {
-  background-color: transparent;
-  color: white;
-  border: 0.5px solid var(--color-text);
+    background-color: transparent;
+    color: white;
+    border: 0.5px solid var(--color-text);
 }
 
 .button-two:hover {
@@ -252,3 +252,5 @@
 }
 
 /* End Section Two */
+
+
