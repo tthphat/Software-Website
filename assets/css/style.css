@@ -74,7 +74,20 @@
 /* Section One */
 .section-one{
     width: 100%;
+    background-image: url(https://mobirise.com/extensions/softwarem4/software-app/assets/images/background1.jpg);
 }
+
+.section-one p, .section-one h1, .section-one h3{
+    margin: 0;
+}
+
+.section-one .inner-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
 
 /* End Section One */
 
