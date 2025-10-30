@@ -118,8 +118,9 @@
 }
 
 .section-one .inner-wrap .description{
-    color: var(--color-text);
+    color: #BBBBBB;
     font-size: 18px;
+    max-width: 50%;
 }
 
 /* End Section One */
