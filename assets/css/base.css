@@ -7,7 +7,9 @@
     --background-primary: #EFEFEF;
     --background-secondary: #1B2026;
     --background-third: #31363B;
-    --background-fourth: #31363B;
+    --background-fourth: #DCE8EB;
+
+    --text-hover:#565656;
 
     --font-primary: "DM Sans";
 }

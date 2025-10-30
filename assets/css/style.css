@@ -1,0 +1,84 @@
+
+
+
+/* header */
+.header{
+    width: 100%;
+    background-color: var(--background-primary);
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch; /*cho phép chiều cao con trực tiếp(inner-item) kéo dãn bằng header, các item sẽ cùng chiều cao nhau bằng header*/
+    padding: 0 50px; 
+    position: sticky;
+}
+
+.header .inner-item{
+    display: flex;
+    align-items: center; /*Vì có cùng chiều cao và dòng này center nên các content bên trong các item sẽ căn ngang với nhau*/
+    padding: 20px 0;
+}
+
+.header .inner-item:first-child img{
+    width: auto;
+    height: 60px;
+    cursor: pointer;
+}
+
+.header .inner-item:first-child .title{
+    font-size: 26px;
+    color: var(--color-primary);
+    cursor: pointer;
+}
+
+.header .inner-item:first-child .title:hover{
+    color: var(--text-hover);
+}
+
+.header .inner-item:nth-child(2){
+    padding: 0;
+}
+
+.header .inner-item:nth-child(2) .page{
+    color: var(--color-primary);
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.header .inner-item:nth-child(2) .page:hover{
+    background-color: white;
+    color: var(--text-hover);   
+}
+
+
+.header .inner-item:last-child {
+    gap: 10px;
+}
+
+.header .inner-item:last-child .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    padding: 15px 25px;
+    background-color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* End Header */
+
+
+
+
+
+
+
+
+
