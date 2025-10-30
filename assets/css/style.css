@@ -75,19 +75,52 @@
 .section-one{
     width: 100%;
     background-image: url(https://mobirise.com/extensions/softwarem4/software-app/assets/images/background1.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    word-wrap: break-word;
+    position: relative;
+}
+
+.section-one::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6); 
+  z-index: 1;
+}
+
+.section-one .inner-wrap{
+    width: 100%;
+    padding: 10rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    position: relative;
+    z-index: 2;
 }
 
 .section-one p, .section-one h1, .section-one h3{
     margin: 0;
 }
 
-.section-one .inner-wrap{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.section-one .inner-wrap .title{
+    color: white;
+    font-size: 18px;
 }
 
+.section-one .inner-wrap .main-title{
+    color: white;
+    font-size: 50px;
+}
 
+.section-one .inner-wrap .description{
+    color: var(--color-text);
+    font-size: 18px;
+}
 
 /* End Section One */
 
