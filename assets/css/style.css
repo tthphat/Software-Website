@@ -26,6 +26,13 @@
 
 /* End Button */
 
+/* Description */
+.description a{
+    text-decoration: none;
+    color: var(--color-secondary);
+}
+/* End Description */
+
 /* header */
 .header{
     width: 100%;
@@ -149,11 +156,6 @@
     color: #BBBBBB;
     font-size: 18px;
     max-width: 50%;
-}
-
-.section-one .inner-wrap .description a{
-    text-decoration: none;
-    color: var(--color-secondary);
 }
 
 .section-one .inner-wrap .intro-btn{
