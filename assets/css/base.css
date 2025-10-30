@@ -2,17 +2,19 @@
 
 :root{
     --color-primary: #232323;
-    --color-secondary: #FF8484;
-
+    --color-secondary: #f7d9c4;
+        
     --background-primary: #EFEFEF;
     --background-secondary: #1B2026;
     --background-third: #31363B;
     --background-fourth: #DCE8EB;
-    
+
     --color-text: #838383;
     --text-hover:#565656;
 
     --font-primary: "DM Sans";
+
+    --icon-color:#FF8484;
 }
 
 *{
@@ -25,7 +27,7 @@ body {
 
 .container{
     width: 100%;
-    max-width: 1200px;
+    max-width: 1100px;
     margin-left: auto;
     margin-right: auto;
 }

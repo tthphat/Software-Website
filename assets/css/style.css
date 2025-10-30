@@ -1,3 +1,31 @@
+/* Button */
+.button{
+    padding: 20px 45px;
+    border-radius: 5px;
+    background-color: var(--color-secondary);
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition: all 0.5s ease;
+}
+
+.button:hover{
+    background-color: white;
+}
+
+.button-two{
+    background-color: transparent;
+    color: white;
+    border: 0.5px solid var(--color-text);
+}
+
+.button-two:hover{
+    background-color: var(--color-secondary);
+    color: black;
+}
+
+/* End Button */
+
 /* header */
 .header{
     width: 100%;
@@ -88,7 +116,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0,0.6); 
+  background: rgba(0, 0, 0, 0.7); 
   z-index: 1;
 }
 
@@ -97,8 +125,8 @@
     padding: 10rem 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    gap: 30px;
+    /* justify-content: space-between; */
+    gap: 20px;
     position: relative;
     z-index: 2;
 }
@@ -121,6 +149,16 @@
     color: #BBBBBB;
     font-size: 18px;
     max-width: 50%;
+}
+
+.section-one .inner-wrap .description a{
+    text-decoration: none;
+    color: var(--color-secondary);
+}
+
+.section-one .inner-wrap .intro-btn{
+    display: flex;
+    gap: 20px;
 }
 
 /* End Section One */
