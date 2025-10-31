@@ -44,6 +44,7 @@
   position: sticky;
   top: 0;
   z-index: 999;
+  box-shadow: 3px 0 8px #bbbbbb;
 }
 
 .header .inner-item {
@@ -252,5 +253,59 @@
 }
 
 /* End Section Two */
+
+/* Section Three */
+.section-three{
+    width: 100%;
+    background-color: var(--background-primary);
+    padding: 100px 0;
+    margin-bottom: 100px;
+}
+
+.section-three .inner-wrap{
+    background-color: white;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 10px;
+}
+
+.section-three .inner-wrap .inner-content{
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 40px;
+}
+
+.section-three .inner-wrap .inner-content .key{
+    font-size: 18px;
+    color: var(--color-text);
+    margin-bottom: 0;
+}
+
+.section-three .inner-wrap .inner-content .title{
+    font-size: 60px;
+    color: var(--color-primary);
+    margin-top: 0;
+}
+
+.section-three .inner-wrap .image{
+    grid-column: 2;
+    position: relative;
+}
+
+.section-three .inner-wrap .image img{
+    width: 60%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    /* top: -50px;
+    right: -150px; */
+    top: -85px;
+    right: 40px;
+}
+
+/* End Section Three */
 
 
