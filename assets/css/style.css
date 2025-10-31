@@ -645,3 +645,66 @@
 }
 
 /* End Section Seven */
+
+/* Section Eight */
+.section-eight{
+    width: 100%;
+    background-color: var(--background-primary);
+}
+
+.section-eight .inner-wrap{
+    width: 100%;
+    padding-bottom: 5rem;
+    position: relative;
+}
+
+.section-eight .inner-wrap img{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.section-eight .inner-wrap .inner-content{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    border-radius: 1rem;
+    padding: 20px 30px;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+
+.section-eight .inner-wrap .inner-content .inner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.section-eight .inner-wrap .inner-content .inner-box .tag{
+    margin: 0;
+    font-size: 18px;
+    color: var(--color-text);
+}
+
+.section-eight .inner-wrap .inner-content .inner-box .title{
+    margin: 0;
+    font-size: 18px;
+    color: var(--color-primary);
+}
+
+.section-eight .inner-wrap .inner-content .inner-box .button{
+    background-color: var(--background-third);
+    color: white;
+    align-self: flex-start;
+}
+
+.section-eight .inner-wrap .inner-content .inner-box .button:hover{
+    background-color: black;
+}
+
+/* End Section Eight */
