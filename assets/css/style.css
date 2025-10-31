@@ -455,3 +455,96 @@
 
 /* End Section Five */
 
+/* Section Six */
+.section-six{
+    width: 100%;
+    background-color: var(--background-secondary);
+    padding: 120px 0;
+}
+
+.section-six .inner-wrap{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    background-color: white;
+    padding: 70px;
+    border-radius: 10px;
+}
+
+.section-six .inner-wrap .inner-title{
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-six .inner-wrap .inner-title .head{
+    font-size: 18px;
+    color: var(--color-text);
+    margin: 0;
+}
+
+.section-six .inner-wrap .inner-title .title{
+    margin: 0;
+    font-size: 61px;
+    color: var(--color-primary);
+}
+
+.section-six .inner-wrap .list-item{
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-six .inner-wrap .list-item .inner-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid #efefef;
+    padding: 1rem 1.5rem;
+}
+
+.section-six .inner-wrap .list-item .inner-box:first-child .text::before{
+    content: "\f013";
+    font-family: "Font Awesome 7 Free";
+    font-size: 24px;
+    font-weight: 900; 
+    color: var(--color-text);
+    margin-right: 15px;
+}
+
+.section-six .inner-wrap .list-item .inner-box:nth-child(2) .text::before{
+    content: "\f53f";
+    font-family: "Font Awesome 7 Free";
+    font-size: 24px;
+    font-weight: 900; 
+    color: var(--color-text);
+    margin-right: 15px;
+}
+
+.section-six .inner-wrap .list-item .inner-box:last-child .text::before{
+    content: "\f49e";
+    font-family: "Font Awesome 7 Free";
+    font-size: 24px;
+    font-weight: 900; 
+    color: var(--color-text);
+    margin-right: 15px;
+}
+
+.section-six .inner-wrap .list-item .inner-box .text{
+    margin: 0;
+    font-size: 18px;
+    color: var(--color-text);
+}
+
+.section-six .inner-wrap .list-item .inner-box i{
+    color: var(--color-text);
+}
+
+/* End Section Six */
