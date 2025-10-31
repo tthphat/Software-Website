@@ -302,8 +302,9 @@
     position: absolute;
     /* top: -50px;
     right: -150px; */
-    top: -85px;
-    right: 40px;
+    /* top: -85px; */
+    right: 60px;
+    bottom: 0;
 }
 
 /* End Section Three */
