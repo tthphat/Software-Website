@@ -17,10 +17,15 @@
     background-color: transparent;
     color: white;
     border: 0.5px solid var(--color-text);
+    padding: 20px 45px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: all 0.5s ease;
 }
 
 .button-two:hover {
-  background-color: var(--color-secondary);
+  background-color: var(--color-secondary); 
   color: var(--background-secondary);
 }
 
@@ -837,3 +842,91 @@
 }
 
 /* End Section Ten */
+
+/* Section Eleven */
+.section-eleven{
+    width: 100%;
+    padding: 5rem 0;
+}
+
+.section-eleven .inner-wrap{
+    width: 100%;
+    padding: 5rem;
+    background-color: var(--background-fourth);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.section-eleven .inner-wrap .head{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section-eleven .inner-wrap .head .key{
+    font-size: 18px;
+    color: var(--color-text);
+    margin: 0;
+}
+
+.section-eleven .inner-wrap .head .title{
+    font-size: 61px;
+    color: var(--color-primary);
+    margin: 0;
+}
+
+.section-eleven .inner-wrap .input-form{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-areas: 
+    "name email subject"
+    "text-area text-area text-area"
+    ". . button";
+    column-gap: 10px;
+    row-gap: 20px;
+}
+
+.section-eleven .inner-wrap .input-form .input{
+    padding: 20px 25px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.section-eleven .inner-wrap .input-form #name{
+    grid-area: name;
+}
+
+.section-eleven .inner-wrap .input-form #email{
+    grid-area: email;
+}
+
+.section-eleven .inner-wrap .input-form #subject{
+    grid-area: subject;
+}
+
+.section-eleven .inner-wrap .input-form #text-area{
+    grid-area: text-area;
+    padding: 20px 25px;
+    border-radius: 10px;
+    min-height: 200px;
+    border: none;
+    outline: none;
+}
+
+.section-eleven .inner-wrap .input-form .button-two{
+    grid-area: button;
+    justify-self: flex-end;
+    background-color: var(--color-primary);
+    border-color: transparent;
+}
+
+.section-eleven .inner-wrap .button-two:hover {
+  background-color: var(--color-secondary); 
+  color: var(--background-secondary);
+}
+
+/* End Section Eleven */
