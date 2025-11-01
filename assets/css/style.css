@@ -931,3 +931,29 @@
 
 /* End Section Eleven */
 
+/* Section Twelve */
+.section-twelve{
+    width: 100%;
+}
+
+.section-twelve .inner-wrap{
+    width: 100%;
+    padding: 5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-twelve .inner-wrap .title{
+    font-size: 61px;
+    color: var(--color-primary);
+}
+
+.section-twelve .inner-wrap iframe{
+    width: 100%;
+    aspect-ratio: 4 / 2; 
+    border-radius: 10px;
+}
+
+/* End Section Twelve */
