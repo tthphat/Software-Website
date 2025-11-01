@@ -957,3 +957,23 @@
 }
 
 /* End Section Twelve */
+
+/* Footer */
+.footer{
+    width: 100%;
+    background-color: var(--background-secondary);
+}
+
+.footer .inner-wrap{
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .inner-wrap .foot{
+    font-size: 18px;
+    color: white;
+}
+
+/* Footer */
